@@ -1,25 +1,16 @@
 {
-  "files": {
-    "main.css": "/react_app/static/css/main.bec3c7a2.chunk.css",
-    "main.js": "/react_app/static/js/main.2b18f29c.chunk.js",
-    "main.js.map": "/react_app/static/js/main.2b18f29c.chunk.js.map",
-    "runtime-main.js": "/react_app/static/js/runtime-main.b38bbcd6.js",
-    "runtime-main.js.map": "/react_app/static/js/runtime-main.b38bbcd6.js.map",
-    "static/js/2.9ad87f1e.chunk.js": "/react_app/static/js/2.9ad87f1e.chunk.js",
-    "static/js/2.9ad87f1e.chunk.js.map": "/react_app/static/js/2.9ad87f1e.chunk.js.map",
-    "index.html": "/react_app/index.html",
-    "precache-manifest.0ed72b70e03317017cabe73240e16d92.js": "/react_app/precache-manifest.0ed72b70e03317017cabe73240e16d92.js",
-    "service-worker.js": "/react_app/service-worker.js",
-    "static/css/main.bec3c7a2.chunk.css.map": "/react_app/static/css/main.bec3c7a2.chunk.css.map",
-    "static/js/2.9ad87f1e.chunk.js.LICENSE": "/react_app/static/js/2.9ad87f1e.chunk.js.LICENSE",
-    "static/media/header1.jpg": "/react_app/static/media/header1.70e6670e.jpg",
-    "static/media/header2.jpg": "/react_app/static/media/header2.33eca35f.jpg",
-    "static/media/header3.jpg": "/react_app/static/media/header3.d9d36b65.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.b38bbcd6.js",
-    "static/js/2.9ad87f1e.chunk.js",
-    "static/css/main.bec3c7a2.chunk.css",
-    "static/js/main.2b18f29c.chunk.js"
-  ]
+  "main.css": "/react_app/static/css/main.ed8d183c.chunk.css",
+  "main.js": "/react_app/static/js/main.e1c0000e.chunk.js",
+  "main.js.map": "/react_app/static/js/main.e1c0000e.chunk.js.map",
+  "runtime~main.js": "/react_app/static/js/runtime~main.10c67c8a.js",
+  "runtime~main.js.map": "/react_app/static/js/runtime~main.10c67c8a.js.map",
+  "static/js/2.e1279563.chunk.js": "/react_app/static/js/2.e1279563.chunk.js",
+  "static/js/2.e1279563.chunk.js.map": "/react_app/static/js/2.e1279563.chunk.js.map",
+  "index.html": "/react_app/index.html",
+  "precache-manifest.916d32143d6c373305e550495e66e5d5.js": "/react_app/precache-manifest.916d32143d6c373305e550495e66e5d5.js",
+  "service-worker.js": "/react_app/service-worker.js",
+  "static/css/main.ed8d183c.chunk.css.map": "/react_app/static/css/main.ed8d183c.chunk.css.map",
+  "static/media/header1.jpg": "/react_app/static/media/header1.70e6670e.jpg",
+  "static/media/header2.jpg": "/react_app/static/media/header2.33eca35f.jpg",
+  "static/media/header3.jpg": "/react_app/static/media/header3.d9d36b65.jpg"
 }
