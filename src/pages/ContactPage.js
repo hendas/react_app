@@ -1,43 +1,52 @@
-import React, { Component } from "react";
-import "../styles/Contact.css";
-import { Prompt } from "react-router-dom";
+import React from 'react';
+import '../styles/ContactPage.css';
+import { Prompt } from 'react-router-dom';
 
-class ContactPage extends Component {
-  state = {
-    value: ""
-  };
+class ContactPage extends React.Component {
+    state = {
+        value: "",
+        isEmpty: true,
+    }
 
-  handleChange = e => {
-    this.setState({
-      value: e.target.value
-    });
-  };
+    handleSubmit = (e) => {
+        e.preventDefault();
+        this.setState({
+            value: "",
+            isEmpty: true
+        })
+    }
 
-  handleSubmit = e => {
-    e.preventDefault();
-    this.setState({
-      value: ""
-    });
-  };
+    handleChange = (e) => {
+        if (e.target.value.length > 0) {
+            this.setState({
+                value: e.target.value,
+                isEmpty: false
+            })
+        } else {
+            this.setState({
+                value: e.target.value,
+                isEmpty: true
+            })
+        }
+    }
 
-  render() {
-    return (
-      <div className="contact">
-        <form>
-          <h3>Napisz do nas</h3>
-          <textarea
-            value={this.state.value}
-            onChange={this.handleChange}
-          ></textarea>
-          <button onClick={this.handleSubmit}>Wyślij</button>
-        </form>
-        <Prompt
-          when={this.state.value !== ""}
-          message="Masz nie wysłany formularz"
-        />
-      </div>
-    );
-  }
+
+    render() {
+        return (
+            <div className="contact">
+                <form onSubmit={this.handleSubmit}>
+                    <h3>Napisz do nas</h3>
+                    <textarea value={this.state.value} onChange={this.handleChange} placeholder="Wpisz wiadomość..."></textarea>
+                    <button>Wyślij</button>
+                </form>
+                <Prompt
+                    when={!this.state.isEmpty}
+                    message="Masz niewypełniony formularz. Czy na pewno chcesz opuścić tę stronę"
+                />
+            </div>
+
+        );
+    }
 }
 
 export default ContactPage;

@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
 
-const HomePage = () => {
-  return <div>404 Page not found</div>;
-};
+const ErrorPage = () => {
+    return (
+        <div>Nie ma takiej strony</div>
+    );
+}
 
-export default HomePage;
+export default ErrorPage;

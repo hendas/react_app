@@ -1,22 +1,13 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class LoginPage extends Component {
-  state = {};
-  render() {
+const LoginPage = () => {
     return (
-      <div>
-        <label>
-          Podaj login
-          <input type="text" />
-        </label>
-        <label>
-          Podaj haslo
-          <input type="password" />
-        </label>
-        <button>Zaloguj</button>
-      </div>
+        <div>
+            <label htmlFor="">Podaj login<input type="text" /></label>
+            <label htmlFor="">Podaj hasło<input type="password" /></label>
+            <button>Zaloguj</button>
+        </div>
     );
-  }
 }
 
 export default LoginPage;

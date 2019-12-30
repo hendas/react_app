@@ -7,7 +7,6 @@ import Page from "./Page";
 import Footer from "./Footer";
 
 class App extends Component {
-  state = {};
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
